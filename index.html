@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pow</title>
+    <script>
+    	var x = +prompt('Укажите число возводимое в степень');
+    	var n = +prompt('укажите степень числа');
+
+
+    	function pow(a , n){
+           var results = 1;
+           for( var i = 0; i < n; i++){
+           	var results = results * a;
+           }
+           return results;
+    	}
+
+
+
+        var powResult = pow(x , n);
+
+
+        alert(powResult);
+
+
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+	
+</body>
+</html>
